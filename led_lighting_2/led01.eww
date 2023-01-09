@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\led01.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\project\temperature_control_system.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
