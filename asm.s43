@@ -1,0 +1,27 @@
+#include "msp430.h"                     ; #define controlled include file
+
+        NAME    main                    ; module name
+
+        PUBLIC  main                    ; make the main label vissible
+                                        ; outside this module
+        ORG     0FFFEh
+        DC16    init                    ; set reset vector to 'init' label
+
+        RSEG    CSTACK                  ; pre-declaration of segment
+        RSEG    CODE                    ; place program in 'CODE' segment
+
+init:   MOV     #SFE(CSTACK), SP        ; set up stack
+
+main:   LINE1: MOV.W #0x0009, R6
+        LINE2: MOV.W #0xFFF, R5
+        LINE3: DEC R5
+        JNZ LINE3
+        DEC R6
+        JNZ LINE2
+        Ret
+
+
+
+
+                                        ; (endless loop)
+        END
