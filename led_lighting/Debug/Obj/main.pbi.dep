@@ -1,0 +1,5 @@
+main.pbi: \
+  C:\Users\GULSAH\Documents\IAR\ Embedded\ Workbench\ IDE\led_lighting\main.c \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\430\inc\io430.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\430\inc/io430f149.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\430\inc/intrinsics.h
