@@ -1,1 +1,1 @@
-# Application-Using-MSP430
+# Applications-Using-MSP430
