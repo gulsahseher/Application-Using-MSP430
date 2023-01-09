@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\deneme02.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\seven _segment_display\deneme1.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\seven_segment_display3.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
